@@ -3,5 +3,8 @@
 
 ##### Linguagens usadas no projeto:
 
-- html5<br/> - css3<br/> - grid bootstrap<br/> - jquery
+- html5<br/>
+- css3<br/> 
+- grid bootstrap<br/>
+- jquery
 
