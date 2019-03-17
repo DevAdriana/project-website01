@@ -27,7 +27,8 @@
   padding-bottom: 20px;
 }
 
-#promo-one, #promo-two {
+#promo-one,
+#promo-two {
   font-size: 40px;
   text-align: center;
   padding-top: 20px;
@@ -38,23 +39,16 @@
 #offer {
   font-size: 60px;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
   color: #fff;
+  padding-top:30px;
+  padding-bottom: 30px;
 }
 
-#product-offer-1 {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  padding:40px;
-  border: solid 1px;
-}
-
+#product-offer-1,
 #product-offer-2 {
   width: 100%;
-  max-width:280px;
-  height: auto;
-  padding:40px;
+  max-width: 200px;
+  height: 300px;
   border: solid 1px;
+  padding: 20px;
 }
