@@ -47,6 +47,16 @@
   width: 100%;
   max-width: 200px;
   height: 300px;
-  border: solid 1px;
   padding: 20px;
+  margin: 20px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 0px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.632);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
