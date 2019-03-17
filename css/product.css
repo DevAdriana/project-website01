@@ -1,0 +1,16 @@
+.container-fluid{
+    height: 500px;
+
+}
+#product{
+    border:2px solid black;
+    height: 400px;
+}
+#title{
+    border:2px solid black;
+    height: 200px;
+}
+#info-cart{
+    border:2px solid black;
+    height: 200px;
+}
