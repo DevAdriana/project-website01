@@ -21,9 +21,11 @@
   height: 80px;
   width: auto;
 }
+
 #links {
   display: inline;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -127,18 +129,24 @@ li.dropdown {
 }
 
 /* SECTION 5*/
-span{
-  font-size:40px;
+span {
+  font-size: 40px;
 }
-input[type=button]{
-  height:50px;
+
+input[type=button] {
+  height: 50px;
   width: 320px;
-  color:#fff;
+  color: #fff;
   border: none;
   margin-bottom: 20px;
-  font-size:25px;
+  font-size: 25px;
 }
-    input[type=button]:hover{
-      background-color: rgb(37, 148, 43);
-      cursor: pointer;
-    }
+
+input[type=button]:hover {
+  background-color: rgb(37, 148, 43);
+  cursor: pointer;
+}
+
+.fab{
+  font-size: 40px;
+}
