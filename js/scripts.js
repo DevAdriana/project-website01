@@ -1,3 +1,4 @@
+//SLICK
 $(".autoplay").slick({
   autoplay: true,
   autoplaySpeed: 2000,
@@ -12,7 +13,7 @@ $(".autoplay").slick({
       settings: {
         arrows: false,
         slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToScroll: 2
       }
     },
     {
@@ -20,8 +21,23 @@ $(".autoplay").slick({
       settings: {
         arrows: false,
         slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToScroll: 1
       }
     }
   ]
 });
+
+//NAVBAR
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("navbar").style.height = "50px";
+    document.getElementById("brand-logo").style.height = "40px";
+  } else {
+    document.getElementById("navbar").style.height = "100px";
+    document.getElementById("brand-logo").style.height = "80px";
+  }
+}
