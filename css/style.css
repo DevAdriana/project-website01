@@ -47,7 +47,6 @@ li a,
 li a:hover,
 .dropdown:hover .dropbtn {
   background-color: rgba(0, 128, 0, 0.435);
-  border-bottom: solid 5px green;
 }
 
 li.dropdown {
