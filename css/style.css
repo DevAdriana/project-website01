@@ -127,3 +127,18 @@ li.dropdown {
 }
 
 /* SECTION 5*/
+span{
+  font-size:40px;
+}
+input[type=button]{
+  height:50px;
+  width: 320px;
+  color:#fff;
+  border: none;
+  margin-bottom: 20px;
+  font-size:25px;
+}
+    input[type=button]:hover{
+      background-color: rgb(37, 148, 43);
+      cursor: pointer;
+    }
