@@ -37,8 +37,7 @@ li {
   float: left;
 }
 
-li a,
-.dropbtn {
+li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
@@ -46,8 +45,7 @@ li a,
   text-decoration: none;
 }
 
-li a:hover,
-.dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover .dropbtn {
   background-color: rgba(0, 128, 0, 0.435);
 }
 
@@ -87,8 +85,7 @@ li.dropdown {
   padding-bottom: 20px;
 }
 
-#promo-one,
-#promo-two {
+#promo-one, #promo-two {
   font-size: 40px;
   text-align: center;
   padding-top: 20px;
@@ -104,8 +101,7 @@ li.dropdown {
   padding-bottom: 30px;
 }
 
-#product-offer-1,
-#product-offer-2 {
+#product-offer-1, #product-offer-2 {
   width: 100%;
   max-width: 200px;
   height: 300px;
@@ -124,11 +120,13 @@ li.dropdown {
 }
 
 /*SECTION 4*/
+
 .carousel {
   height: 400px;
 }
 
 /* SECTION 5*/
+
 span {
   font-size: 40px;
 }
@@ -141,54 +139,94 @@ input[type=button] {
   margin-bottom: 20px;
   font-size: 25px;
 }
+
 input[type=button]:hover {
   background-color: rgb(37, 148, 43);
   cursor: pointer;
 }
+
 /* NEWSLETTER */
-#email{
-  border:2px solid black;
+
+#email {
+  /* border: 2px solid black; */
 }
-.newsletter{
+
+.newsletter {
   font-size: 20px;
-  color:#fff;
+  color: #fff;
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
-input[type=email]{
+
+input[type=email] {
   height: 40px;
-  width: 100%;
+  width: 80%;
   border-radius: 5px;
   cursor: pointer;
   font-size: 15px;
-  border:none;
-
+  border: none;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.411);
 }
 
-input[type=submit]{
+input[type=submit] {
   height: 35px;
-  margin-top:5px;
-  margin-bottom:8px;
+  margin-top: 5px;
+  margin-bottom: 8px;
   text-align: center;
-  width:100px;
+  width: 100px;
   border-radius: 5px;
   font-size: 18px;
   background-color: #fff;
-cursor: pointer;
-border:none;
-} 
-input[type=submit]:hover{
-  background-color:#8D6E63;
-  color:#fff;
-}
-#address{
-  border:2px solid black;
-  
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.411);
 }
 
-#icons-rs{
-  border:2px solid black;
-
+input[type=submit]:hover {
+  background-color: #8D6E63;
+  color: #fff;
 }
 
-#icons1, #icons2, #icons3{
+#address {
+  /* border: 2px solid black; */
+}
+
+#h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+h6 {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+#icons-rs {
+  /* border: 2px solid black; */
+}
+
+#icons1, #icons2, #icons3 {
   font-size: 40px;
+  color:#fff;
+  margin: 10px;
+  margin-top: 20px;
+
 }
+#icons1:hover{
+  color:#311B92;
+}
+    #icons2:hover{
+      color:#4FC3F7;
+    }
+    #icons3
+  :hover{
+      color:#E91E63;
+    }
