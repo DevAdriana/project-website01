@@ -141,12 +141,54 @@ input[type=button] {
   margin-bottom: 20px;
   font-size: 25px;
 }
-
 input[type=button]:hover {
   background-color: rgb(37, 148, 43);
   cursor: pointer;
 }
+/* NEWSLETTER */
+#email{
+  border:2px solid black;
+}
+.newsletter{
+  font-size: 20px;
+  color:#fff;
+}
+input[type=email]{
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  border:none;
 
-.fab{
+}
+
+input[type=submit]{
+  height: 35px;
+  margin-top:5px;
+  margin-bottom:8px;
+  text-align: center;
+  width:100px;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #fff;
+cursor: pointer;
+border:none;
+} 
+input[type=submit]:hover{
+  background-color:#8D6E63;
+  color:#fff;
+}
+#address{
+  border:2px solid black;
+  
+}
+
+#icons-rs{
+  border:2px solid black;
+
+}
+
+#icons1, #icons2, #icons3{
   font-size: 40px;
 }
