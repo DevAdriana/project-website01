@@ -1,0 +1,14 @@
+{
+  "products": {
+    "data": [
+      {
+        "id": "1",
+        "details": {
+          "title": "Produto 1",
+          "details": "O melhor produto para se consumir, muito saboroso e rico em vitaminas",
+          "price": "12,50"
+        }
+      }
+    ]
+  }
+}

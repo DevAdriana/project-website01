@@ -1,12 +1,13 @@
-# project-website01
+#E-commerce Simple Model
 
-## Projeto modelo de site pessoal
+## Project personal site model
 
-### Linguagens usadas no projeto
+### Used programming languages in project
 
 - html5 </br>
 - css3 </br>
-- grid bootstrap </br>
-- jquery
+- Grid bootstrap </br>
+- Jquery </br>
+- Slick Carousel </br>
 
-#### Projeto modelo
+#### This page is an project model e-commerce, used only for demonstration.
