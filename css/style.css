@@ -106,7 +106,7 @@ li.dropdown {
   max-width: 200px;
   height: 300px;
   padding: 20px;
-  margin: 20px;
+  
 }
 
 .text-block {
@@ -122,7 +122,10 @@ li.dropdown {
 /*SECTION 4*/
 
 .carousel {
-  height: 400px;
+  height: 250px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin: 20px;
 }
 
 /* SECTION 5*/
@@ -130,7 +133,6 @@ li.dropdown {
 span {
   font-size: 40px;
 }
-
 input[type=button] {
   height: 50px;
   width: 320px;
@@ -139,25 +141,18 @@ input[type=button] {
   margin-bottom: 20px;
   font-size: 25px;
 }
-
 input[type=button]:hover {
   background-color: rgb(37, 148, 43);
   cursor: pointer;
 }
 
 /* NEWSLETTER */
-
-#email {
-  /* border: 2px solid black; */
-}
-
 .newsletter {
   font-size: 20px;
   color: #fff;
   padding-bottom: 8px;
-  padding-top: 8px;
+  padding-top: 40px;
 }
-
 input[type=email] {
   height: 40px;
   width: 80%;
@@ -184,7 +179,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #8D6E63;
+  background-color: #4E342E;
   color: #fff;
 }
 
@@ -196,7 +191,7 @@ input[type=submit]:hover {
   font-size: 20px;
   font-weight: bold;
   color: #fff;
-  margin-top: 5px;
+  margin-top: 40px;
   margin-bottom: 5px;
   letter-spacing: 0.5px;
 }
@@ -211,22 +206,24 @@ h6 {
 
 #icons-rs {
   /* border: 2px solid black; */
+  height: 200px;
 }
 
 #icons1, #icons2, #icons3 {
   font-size: 40px;
-  color:#fff;
+  color: #fff;
   margin: 10px;
-  margin-top: 20px;
+  margin-top: 50px;
+}
 
+#icons1:hover {
+  color: #311B92;
 }
-#icons1:hover{
-  color:#311B92;
+
+#icons2:hover {
+  color: #4FC3F7;
 }
-    #icons2:hover{
-      color:#4FC3F7;
-    }
-    #icons3
-  :hover{
-      color:#E91E63;
-    }
+
+#icons3 :hover {
+  color: #E91E63;
+}
