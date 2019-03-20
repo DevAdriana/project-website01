@@ -37,7 +37,8 @@ li {
   float: left;
 }
 
-li a, .dropbtn {
+li a,
+.dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
@@ -45,7 +46,8 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover,
+.dropdown:hover .dropbtn {
   background-color: rgba(0, 128, 0, 0.435);
 }
 
@@ -85,7 +87,8 @@ li.dropdown {
   padding-bottom: 20px;
 }
 
-#promo-one, #promo-two {
+#promo-one,
+#promo-two {
   font-size: 40px;
   text-align: center;
   padding-top: 20px;
@@ -101,12 +104,12 @@ li.dropdown {
   padding-bottom: 30px;
 }
 
-#product-offer-1, #product-offer-2 {
+#product-offer-1,
+#product-offer-2 {
   width: 100%;
   max-width: 200px;
   height: 300px;
   padding: 20px;
-  
 }
 
 .text-block {
@@ -133,7 +136,7 @@ li.dropdown {
 span {
   font-size: 40px;
 }
-input[type=button] {
+input[type="button"] {
   height: 50px;
   width: 320px;
   color: #fff;
@@ -141,48 +144,43 @@ input[type=button] {
   margin-bottom: 20px;
   font-size: 25px;
 }
-input[type=button]:hover {
+input[type="button"]:hover {
   background-color: rgb(37, 148, 43);
   cursor: pointer;
 }
 
-/* NEWSLETTER */
-a{
-  color:#fff;
+.col {
+  height: 300px;
+}
+
+a {
+  color: #fff;
   text-decoration: none;
   font-size: 16px;
   line-height: 20px;
-  /* padding-top: 30px; */
-
-
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
-.col-md-4{
-  padding: 60px;
-}
-#icons-rs {
-  /* border: 2px solid black; */
-  height: 200px;
-}
-
-#icons1, #icons2, #icons3 {
-  font-size: 40px;
+#icons1,
+#icons2,
+#icons3 {
+  font-size: 25px;
   color: #fff;
-  margin: 10px;
-  margin-top: 50px;
 }
 
 #icons1:hover {
-  color: #311B92;
+  color: #311b92;
+  cursor: pointer;
 }
 
 #icons2:hover {
-  color: #4FC3F7;
+  color: #4fc3f7;
+  cursor: pointer;
 }
 
 #icons3 :hover {
-  color: #E91E63;
+  color: #e91e63;
+  cursor: pointer;
 }
