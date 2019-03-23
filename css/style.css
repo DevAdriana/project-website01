@@ -150,7 +150,7 @@ input[type="button"]:hover {
 }
 
 .col {
-  height: 300px;
+  height: 200px;
 }
 
 a {
@@ -166,8 +166,9 @@ a:hover {
 #icons1,
 #icons2,
 #icons3 {
-  font-size: 25px;
+  font-size: 30px;
   color: #fff;
+  padding:2px;
 }
 
 #icons1:hover {
